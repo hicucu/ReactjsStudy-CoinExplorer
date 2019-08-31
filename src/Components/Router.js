@@ -1,9 +1,15 @@
 import React from "react";
-import Coin from "Routes/Coin";
-import { BrowerRouter as Router, Route } from "react-router-dom";
+import Coins from "Routes/Coins";
+import Prices from "Routes/Prices";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 export default () => (
-  <Router>
-    <Route path="/" exact componet={Coin} />
-  </Router>
+  <>
+    <p>Coin Explorer</p>
+    <Router>
+      <Route path="/" exact component={Coins} />
+      <Route path="/prices" component={Prices} />
+      <Redirect from="*" to="/" />
+    </Router>
+  </>
 );
