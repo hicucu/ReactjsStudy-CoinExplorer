@@ -1,3 +1,8 @@
-const PricesPresenter = () => "Prices";
+import React from "react";
+import styled from "styled-components";
 
-export default PricesPresenter;
+const Prices = styled.section``;
+
+const PricePresenter = () => <Prices>Prices</Prices>;
+
+export default PricePresenter;
