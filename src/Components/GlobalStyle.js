@@ -8,6 +8,10 @@ const globalStyle = createGlobalStyle`
   }
   body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    background-color:#011627;
+    color:#fdfffc;
+    padding-top:80px;
   }
   a{
     text-decoration:none;
