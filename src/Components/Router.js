@@ -17,7 +17,7 @@ export default () => (
       <Switch>
         <Route path="/" exact component={Coins} />
         <Route path="/prices" component={Prices} />
-        <Route path="/exchanges" component={Exchanges} />
+        <Route path="/Exchanges" component={Exchanges} />
         <Redirect from="*" to="/" />
       </Switch>
     </Router>

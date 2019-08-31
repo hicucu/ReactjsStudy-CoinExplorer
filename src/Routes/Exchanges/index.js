@@ -1,3 +1,3 @@
-import ExchagesContainer from "./ExchangesContainer";
+import ExchangesContainer from "./ExchangesContainer";
 
-export default ExchagesContainer;
+export default ExchangesContainer;
