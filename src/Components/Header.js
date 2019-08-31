@@ -5,6 +5,8 @@ import { Link, withRouter } from "react-router-dom";
 const Header = styled.header`
   position: fixed;
   top: 0;
+  border-bottom: 3px solid black;
+  width: 100vw;
 `;
 const Title = styled.h1`
   font-size: 32px;
@@ -19,17 +21,20 @@ const Nav = styled.nav`
 
 const List = styled.ul`
   display: flex;
+  position: absolute;
+  bottom: -3px;
 `;
 
 const Item = styled.li`
   display: flex;
   justify-content: center;
-  padding-bottom:10px
+  padding-bottom: 10px;
   width: 100px;
+  height: 35px;
   border-bottom: 3px solid
     ${props => (props.current ? "#f71735" : "transparent")};
   transition: border-bottom 0.5s ease-in-out;
-  color:${props => (props.current ? "inherit" : "#41ead4")};
+  color: ${props => (props.current ? "inherit" : "#41ead4")};
   font-weight: 600;
 `;
 
