@@ -2,6 +2,7 @@ import React from "react";
 import Coins from "Routes/Coins";
 import Prices from "Routes/Prices";
 import Exchanges from "Routes/Exchanges";
+import Header from "Components/Header";
 import {
   BrowserRouter as Router,
   Route,
@@ -11,8 +12,8 @@ import {
 
 export default () => (
   <>
-    <p>Coin Explorer</p>
     <Router>
+      <Header />
       <Switch>
         <Route path="/" exact component={Coins} />
         <Route path="/prices" component={Prices} />
