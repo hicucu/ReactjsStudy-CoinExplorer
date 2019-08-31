@@ -2,11 +2,11 @@
 
 ## install
 
-- [ ] prop-types
-- [ ] styled-components
-- [ ] stlyed-reset
-- [ ] react-router-dom
-- [ ] axios
+- [x] prop-types
+- [x] styled-components
+- [x] stlyed-reset
+- [x] react-router-dom
+- [x] axios
 
 ## screen
 
