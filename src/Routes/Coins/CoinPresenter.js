@@ -19,7 +19,7 @@ const Rank = styled.h1`
 
 const Name = styled.span``;
 
-const Symbol = styled.span``;
+const Symb = styled.span``;
 
 const compare = (a, b) => {
   return a > b ? 1 : a < b ? -1 : 0;
@@ -36,7 +36,7 @@ const CoinPresenter = ({ coins, error, isLoading }) =>
         .map(coin => (
           <Coin key={coin.id}>
             <Rank>#{coin.rank} </Rank>
-            <Symbol>{coin.symbol}</Symbol> / <Name>{coin.name}</Name>
+            <Symb>{coin.symbol}</Symb> / <Name>{coin.name}</Name>
           </Coin>
         ))}
     </Container>
