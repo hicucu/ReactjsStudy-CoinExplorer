@@ -7,6 +7,7 @@ const Header = styled.header`
   top: 0;
   border-bottom: 3px solid black;
   width: 100vw;
+  background-color: #011627;
 `;
 const Title = styled.h1`
   font-size: 32px;
